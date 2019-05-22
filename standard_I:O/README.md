@@ -2,6 +2,10 @@
 
 ---
 
+此处启动：`cat file.txt | node process.js`
+
+---
+
 ### 语法格式
 
 > cat [-AbeEnstTuv] [--help] [--version] fileName   
