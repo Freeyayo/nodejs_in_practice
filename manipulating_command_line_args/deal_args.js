@@ -12,7 +12,7 @@ function displayHelp(){
 
 function readFile(file){
 	console.log("reading file ...");
-	fs.createReadStream(__dirname + "/" + file).pipe(process.stdout)
+	fs.createReadStream(__dirname + "/" + file).pipe(process.stdout)   // directly display on terminal
 }
 
 if(process.argv.length > 2){
