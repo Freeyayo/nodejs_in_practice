@@ -13,7 +13,7 @@ CountStream.on("total", (count) => {
 	passed++;
 })
 
-fs.createReadSream(__dirname + "/passport.txt").pipe(CountStream);
+fs.createReadStream(__dirname + "/passport.txt").pipe(CountStream);
 
 process.on("exit", () => {
 	console.log("passport number: ", passed);
