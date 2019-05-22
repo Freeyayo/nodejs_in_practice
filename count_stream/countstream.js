@@ -18,7 +18,7 @@ const CountStream = {
 		cb();
 	},
 	end(){
-		this.emit("total",this.count);
+		this.emit("total",this.count);	//emit "total" , deliver "count"
 	}
 }
 
