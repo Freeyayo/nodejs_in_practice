@@ -1,7 +1,7 @@
-### Linux cat
+## Linux cat
 
 ---
 
-## 语法格式
+### 语法格式
 
-* cat [-AbeEnstTuv] [--help] [--version] fileName   *hello
+* cat [-AbeEnstTuv] [--help] [--version] fileName   
