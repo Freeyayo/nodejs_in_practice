@@ -16,6 +16,6 @@ loop.
 *	callbacks run this way will placed after any upcoming I/O events but before  ```setTimeout()``` and ```setInterval()```
 
 
-> _Within a single iteration of the event loop_
-I/O events -> setImmediat -> setInterval -> process.nextTick
+> _Within a single iteration of the event loop_ : 
+**I/O events** -> **setImmediat** -> **setInterval** -> **process.nextTick**
 
