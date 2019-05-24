@@ -17,5 +17,5 @@ loop.
 
 
 > _Within a single iteration of the event loop_
-> I/O events -> setImmediat -> setInterval -> process.nextTick
+I/O events -> setImmediat -> setInterval -> process.nextTick
 
