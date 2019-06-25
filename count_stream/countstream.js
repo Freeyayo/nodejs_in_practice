@@ -1,5 +1,4 @@
 const Writable = require("stream").Writable;
-const util = require("util");
 
 const CountStream = {
 	init(){
